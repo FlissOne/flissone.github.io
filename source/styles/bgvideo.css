@@ -1,0 +1,48 @@
+.bgvideo {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.bgvideo video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+
+}
+.effect video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgb(56, 56, 56);
+    
+
+}
+.video-text {
+    color: rgb(0, 247, 255);
+    z-index: 2;
+}
+.outline-container {
+    position: relative;
+    display: inline-block;
+}
+
+.stroke-text {
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: rgb(0, 238, 255);
+}
